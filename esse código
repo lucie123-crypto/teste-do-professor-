@@ -1,0 +1,11 @@
+INSERT INTO Paciente(nome, data_nascimento, telefone, endereco, email) VALUES
+('Ana Silva', '1985-04-15', '11987654321', 'Rua das Flores, 123, São Paulo', 'ana.silva@email.com'),
+('Carlos Oliveira', '1998-06-30', '21987654321', 'Avenida Paulista, 456, São Paulo', 'carlos.oliveira@email.com'),
+('Fernanda Costa', '1982-12-12', '31987654321', 'Rua das Acácias, 789, Belo Horizonte', 'fernanda.costa@email.com'),
+('João Santos', '1978-03-21', '41987654321', 'Praça da Liberdade, 101, Belo Horizonte', 'joao.santos@email.com'),
+('Maria Souza', '1995-09-18', '51987654321', 'Rua do Mercado, 202, Rio de Janeiro', 'maria.souza@email.com'),
+( 'Pedro Lima', '1988-07-25', '61987654321', 'Rua das Palmeiras, 303, Rio de Janeiro', 'pedro.lima@email.com'),
+('Paula Ferreira', '1992-11-11', '71987654321', 'Rua dos Pinheiros, 484, Porto Alegre', 'paula.ferreira@email.com'),
+( 'Roberto Almeida', '1986-85-es', '81987654321', 'Avenida dos Anjos, 585, Porto Alegre', 'roberto.almeida@email.com'),
+('Sofia Martins', '1984-01-20', '91987654321', 'Rua das orquídeas, 686, Curitiba', 'sofia.martins@email.com'),
+('Tiago Pereira', '1991-88-15', '11976543210, *Rua dos Lírios, 707, Curitiba', 'tiago.pereira@email.com');
