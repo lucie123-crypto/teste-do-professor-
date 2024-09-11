@@ -1,0 +1,141 @@
+/* Definicoes de estilo para o corpo da pagina*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.67;
+    margin: 0;
+    padding:0;
+    background-color: #f4f4f4;
+}
+/* Estilo para os cabecalhos */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+h3 {
+    margin: 10px 0;
+    color: #666;
+}
+/* Estilo para links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+.fonte-family {
+    font-family: "corier New";
+}
+.fonte-tamanho {
+    font-weight: 600;
+}
+.fonte-estilo {
+    font-style: italic;
+}
+.texto-cor {
+    color: #0088cc;
+}
+.texto-centralizado {
+    text-align: center;
+}
+.texto-sublinhada {
+    text-transform: uppercase;
+}
+.texto-maiusculas {
+    text-transform: uppercase;
+}
+.sombra-texto {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.espacamento-letras {
+    word-spacing 14px;
+}
+/*  Isto e um comentario simplkes em css */
+/*
+este e um comentario
+de multiplas linhas
+em CSS
+*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.destaque {
+    background-color: yellow;
+    font-weight: bold;
+} 
+.texto-grande {
+    font-size: 24px;
+}
+.texto-azul {
+    color: blue;
+}
+#cabecalho-principal {
+    backgroud-color: #333;
+}
+#cabecalho-principal {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+/* seletor universal*/
+{
+    margin: 0;
+    padding 0;
+}
+input[type="text"] {
+    border: 2px solid blue;
+    padding: 5px;
+}
+a[href^="http"] {
+    color: red;
+}
+div[data-status="ativo"] {
+    background-color: green:
+}
+/* Especialidade (0,0,0,1) */
+h4 {
+    color: red;
+}
+/* Especialidade (0,0,1,0) */
+.specialidade-header {
+    color: red !important;
+}
+.text-azul {
+    color: red !important;
+}
+.text-azul {
+    color: blue;
+}
+.paragrafos-absoluto {
+font-size: 16px;
+}
+.paragrafos-ponto {
+    font-size: 12pt;
+}
+.caixa-polegada {
+    width: 2in;
+    height: lin;
+    border: 1px solid black;
+}
+.caixa-centimetro {
+    width: 5cm;
+    height: 2cm;
+    border: 1px solid red;
+}
+.caixa-milimetro {
+    width: 50mm;
+    heigth: 2cm;
+    border: 1px solid green;
+}
+.conteiner {
+    font-size: 20px; /* Tamanho da fonte para o elemento pai*/
+}
+.texto-em {
+    font_size: 1.5em; /* 150% do tamanho da fonte do elemento pai, oun seja, 30px*/
+}
+html {
+    font-size: 16px; /* Define o tamanho da fonte padrao para a pagina */
+}
+.texto-rem {
+    font_size: 2rem; /* 200% do tamanho da fonte do elemento raiz, ou seja, 32px */
+}
