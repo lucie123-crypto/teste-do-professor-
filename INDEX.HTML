@@ -15,7 +15,7 @@
             color: #181717;
             font-family: Arial, sans-serif;
         }
-        .texto-destaque {
+        .texto-destaque { 
             font-weight: arial;
         }
         .button-container {
@@ -52,7 +52,21 @@
         a:visited {
             color: #ffffff; /* Cor dos links visitados */
         }
-        
+  a {
+      color: #000000; /* Cor do texto dos links */
+      text-decoration: none; /* Remove o sublinhado dos links */
+  }    
+      a:visited {
+          color: #ffffff; /* Cor dos links visitados */
+      }
+      .card-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+      .card {
+          margin: 100px; /* Espaçamento entre os cards */
+      }
     </style>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -70,11 +84,12 @@
           </div>
         </div>
       </nav>
+      <div class="top-bar">
+        <H2>PRINCIPAIS CARROS</H2>
+      </div>
+      <div class="container"><img src="https://www.br22.com.br/wp-content/themes/br22/images/logo-br22.png" alt="CNN BRASIL Logo" class="img-fluid"></div>
 <div class="container">
-
-
-    
-    <h2 style="color: rgb(245, 7, 7);">principais carros</h2>
+ 
     
     <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
