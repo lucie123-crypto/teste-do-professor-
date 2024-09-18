@@ -17,7 +17,7 @@
       font-family: Arial, sans-serif;
   }
   .texto-destaque {
-      font-weight: arial;
+      font-weight: arial; 
   }
   .button-container {
       display: flex;
@@ -53,25 +53,82 @@
   a:visited {
       color: #ffffff; /* Cor dos links visitados */
   }
+  .button-link {
+    height: 100%;
+    color: #000000;
+  }
+  
   
 </style>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">inicio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="contato.html">contato</a>
-              <a class="nav-link" href="diferenciais.html">diferenciais</a>
-              <a class="nav-link" href="reservas.html">reservas</a>
-              <a class="nav-link" href="veiculos.html">veiculos</a>
-            </div>
-          </div>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="contato.html">contato</a>
+          <a class="nav-link" href="diferenciais.html">diferenciais</a>
+          <a class="nav-link" href="reservas.html">reservas</a>
+          <a class="nav-link" href="veiculos.html">veiculos</a>
         </div>
-      </nav>
+      </div>
+    </div>
+  </nav>
+  <div class="top-bar">
+    <H2>RESERVAS</H2>
+  </div>
+  <div class="container"><img src="https://www.br22.com.br/wp-content/themes/br22/images/logo-br22.png" alt="CNN BRASIL Logo" class="img-fluid"></div>
+  
+      <div class="container">
+        <p>Faça a reserva de um veículo em apenas 3 passos, o primeiro é informar os dados:</p>
+
+        <div class="form-container">
+            <form action="mailto:contato@cnnbrasil.com.br" method="post" enctype="text/plain">
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Data de Retirada</label>
+                    <input type="text" class="form-control" id="nome" name="data-bs-ride" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Data do retorno</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Local de Retirada</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Hora de Retirada</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Hora do Retorno</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Local do Retorno</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>  
+                <button type="submit" class="btn btn-danger"> Primeira locação </button>
+                
+                <button type="submit" class="btn btn-danger">Já aluguei no site da BR22</button>
+               
+               
+
+            </form>
+        </div>
+        
+
+
+
+
+
+
+
+
+
 </body>
 <footer>
   <p>&copy;  Todos os direitos reservados.</p>
